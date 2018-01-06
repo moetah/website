@@ -1,0 +1,14 @@
+{
+  "name": "temu",
+  "version": "0.0.1",
+  "description": "Typical site, i beg yet",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "author": "temu",
+  "license": "ISC"
+}
