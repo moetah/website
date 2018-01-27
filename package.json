@@ -1,6 +1,6 @@
 {
   "name": "temu",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "description": "Typical site, i beg yet",
   "scripts": {
     "start": "node server.js",

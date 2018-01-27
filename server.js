@@ -6,10 +6,8 @@ const port = process.env.PORT || 8080
 
 app.use(express.static(__dirname + '/public'))
 
-// routes
-// app.get('', function(req, res) {
-//   res.render('index')
-// })
+console.log(express.static(__dirname))
+
 
 app.listen(port, function() {
   console.log('app running')

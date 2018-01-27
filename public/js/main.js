@@ -36,8 +36,5 @@ document.addEventListener("DOMContentLoaded", function(){
       if (socialNavCount === socialNav.length) clearTimeout(socialNavInterval)
     }, 100)
   }, 200)
-  
-  var inte = setInterval(function() {
-    document.querySelector('.logo-wrap').classList.toggle('hm')
-  }, 1000)
+
 });
