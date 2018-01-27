@@ -4,11 +4,14 @@
   "description": "Typical site, i beg yet",
   "scripts": {
     "start": "node server.js",
-    "test": "node test.js"
+    "test": "nodemon index.js localhost 8080"
   },
   "dependencies": {
     "express": "^4.16.2"
   },
   "author": "temu",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
 }
